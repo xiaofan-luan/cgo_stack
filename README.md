@@ -11,4 +11,4 @@ when use cgo, how to print stack for both c and go
     $ make
     $ ./example/test
 
-
+Thanks https://github.com/mutse/go-cmake for the demo of cmake go build
