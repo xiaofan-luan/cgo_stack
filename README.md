@@ -1,13 +1,14 @@
-# go-cmake
-Building Golang project with CMake
+# Cgo stack
+when use cgo, how to print stack for both c and go
 
-## How to build
+## How to build and run
 
-    $ git clone https://github.com/mutse/go-cmake.git
-    $ cd go-cmake
+    $ git clone git@github.com:xiaofan-luan/cgo_stack.git
+    $ cd cgo_stack
     $ mkdir build
     $ cd build
     $ cmake ../
-    $ sudo make install
+    $ make
+    $ ./example/test
 
 

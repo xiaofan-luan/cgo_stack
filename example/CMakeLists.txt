@@ -1,0 +1,8 @@
+INCLUDE_DIRECTORIES(../build/src)
+LINK_DIRECTORIES(../build/src)
+
+set(MY_SOURCES test.cpp)
+
+ADD_EXECUTABLE(test ${MY_SOURCES})
+
+TARGET_LINK_LIBRARIES(test stack)
